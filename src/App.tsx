@@ -1,26 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Header from "./components/Header";
+import Meals from "./components/Meals"
+import Cart from "./components/Cart";
+import {CartContextProvider} from "./store/CartContext";
+import {UserProgressContextProvider} from "./store/UserProgressContext";
+import Checkout from "./components/Checkout";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <UserProgressContextProvider>
+            <CartContextProvider>
+                <Header/>
+                <Meals/>
+                <Cart/>
+                <Checkout/>
+            </CartContextProvider>
+        </UserProgressContextProvider>
+    );
 }
 
 export default App;
