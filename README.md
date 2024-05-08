@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# React Food Supermarket App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the React Food Supermarket App repository! 
+This application serves as a virtual supermarket where users can explore a variety of available meals, manage a cart, input their order details through a form, and submit requests to a backend server for order processing and storage. Built with TypeScript, it utilizes a variety of React hooks for clever state management, HTTP requests for communication with a database backend server, form handling, custom hooks, and optimization techniques.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+- **Virtual Supermarket**: Browse through a diverse selection of available meals in a user-friendly interface.
+- **Cart Management**: Efficiently manage a cart by adding and removing items with a smooth user experience.
+- **Form Data Input**: Utilize a form for users to input their order details, enhancing user interaction.
+- **HTTP Requests**: Send requests to a backend server to process and save orders securely.
+- **State-of-the-Art State Management**: Cleverly manage states using various React hooks for optimal performance.
+- **TypeScript Implementation**: Utilizes TypeScript for enhanced type safety and code maintainability.
+- **Custom Hooks**: Implements custom hooks for reusable logic and better code organization.
+- **Optimization Techniques**: Utilizes optimization strategies for improved performance and efficiency.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. **Clone the repository**: `git clone https://github.com/Barak-Kuzi/React-Food-Order.git`
+2. **Install dependencies**: `npm install`
+3. **Navigate to the backend directory**: `cd backend`
+4. **Install backend dependencies**: `npm install`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Usage
 
-### `npm test`
+To run the React Food Supermarket App locally, after installing dependencies, start the application by running:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm start
+cd backend
+npm start
+```
 
-### `npm run build`
+Access the app in your browser by visiting `http://localhost:3000`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contact
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For any inquiries or feedback, feel free to contact [barakkuzi1997@gmail.com](mailto:barakkuzi1997@gmail.com).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Explore the React Food Supermarket App and experience convenient online shopping!
